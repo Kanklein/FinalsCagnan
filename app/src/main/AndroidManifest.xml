@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Midterms"
         tools:targetApi="31">
-        <!--   TODO: Milestone 2-2: add provider here     -->
+        <provider
+            android:authorities="com.example.midterms.BillsContentProvider"
+            android:name=".BillsContentProvider"
+            />
         <activity
             android:name=".PipeActivity"
             android:exported="false">
