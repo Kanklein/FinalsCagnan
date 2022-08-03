@@ -13,62 +13,72 @@
         android:layout_height="wrap_content"
         android:text="Pipe Brand" />
 
-    <RadioButton
-        android:id="@+id/rbAmily"
+    <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Amily" />
+        android:layout_height="match_parent" >
 
-    <RadioButton
-        android:id="@+id/rbArad"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Arad" />
+        <RadioButton
+            android:id="@+id/rbAce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ace" />
 
-    <RadioButton
-        android:id="@+id/rbAce"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ace" />
+        <RadioButton
+            android:id="@+id/rbArad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arad" />
 
-    <TextView
-        android:id="@+id/tvLblDiam"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pipe Diameter" />
+        <RadioButton
+            android:id="@+id/rbAmily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amily" />
 
-    <RadioButton
-        android:id="@+id/rbPointThree"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="0.3" />
+        <TextView
+            android:id="@+id/tvLblDiam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pipe Diameter" />
 
-    <RadioButton
-        android:id="@+id/rbPointFive"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="0.5" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <RadioButton
-        android:id="@+id/rbOnePoint"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="1.0" />
+            <RadioButton
+                android:id="@+id/rbOnePtFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.5" />
 
-    <RadioButton
-        android:id="@+id/rbOnePtFive"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="1.5" />
+            <RadioButton
+                android:id="@+id/rbOnePoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.0" />
 
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="50dp" />
+            <RadioButton
+                android:id="@+id/rbPointFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.5" />
 
-    <Button
-        android:id="@+id/btnConfirm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Confirm" />
+            <RadioButton
+                android:id="@+id/rbPointThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0.3" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm" />
+        </RadioGroup>
+    </RadioGroup>
 
 </LinearLayout>
